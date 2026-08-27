@@ -3,8 +3,8 @@
 [X] Création du serveur en backend
 [X] Relier la BDD au serveur backend
 [ ] Créer les différentes routes pour la communication entre le client et la BDD
-    [ ] Vérifier l'existance du code vendeur
-    [ ] Lister les produits 
+    [X] Vérifier l'existance du code vendeur
+    [X] Lister les produits 
     [ ] Insérer une nouvelle vente
     [ ] Calculer le montant d'un panier pour une vente
     [ ] Générer date et heure de chaque vente
