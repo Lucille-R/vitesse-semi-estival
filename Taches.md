@@ -5,7 +5,7 @@
 [ ] Créer les différentes routes pour la communication entre le client et la BDD
     [X] Vérifier l'existance du code vendeur
     [X] Lister les produits 
-    [ ] Insérer une nouvelle vente
+    [X] Insérer une nouvelle vente
     [ ] Calculer le montant d'un panier pour une vente
     [ ] Générer date et heure de chaque vente
     [ ] Consulter le produit le plus vendu
