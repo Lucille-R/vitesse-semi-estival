@@ -9,13 +9,13 @@
     "dev": "nodemon ./src/server.js"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "node": "^26.8.1",
     "nodemon": "^3.1.14",
     "pg": "^8.23.0"
   }
