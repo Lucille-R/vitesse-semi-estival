@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: vitesse_semi_estival-db
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: guinguette
+      POSTGRES_DB: estival
+    ports:
+      - "5437:5432"
+    volumes:
+      - ./data.sql:/docker-entrypoint-initdb.d/vitesse_semi_estival.sql
+      - vitesse_semi_estival-data:/var/lib/postgresql/data
+
+volumes:
+  vitesse_semi_estival-data:
