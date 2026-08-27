@@ -27,4 +27,10 @@ router.get('/vendeur', async (req, res) => {
     
 })
 
+router.get('/produits', async (req, res) => {
+    const { rows } = await pool.query(`SELECT * FROM produits`);
+
+    res.json(rows);
+})
+
 export default router;
